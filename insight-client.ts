@@ -23,6 +23,7 @@ export class InsightWeatherClient {
                     for (let solKey of data.sol_keys) {
                         const entry = data[solKey];
                         solWeatherData.push({
+                            sol: parseInt(solKey),
                             average: entry.AT.av,
                             low: entry.AT.mn,
                             high: entry.AT.mx
