@@ -1,6 +1,6 @@
 About
 ^^^^^
-
+Example Deno server app.
 Deno Server that serves weather data on Mars equator using Nasa InSight lander API.
 
 Running
