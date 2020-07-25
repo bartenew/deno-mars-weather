@@ -1,0 +1,20 @@
+About
+^^^^^
+
+Deno Server that serves weather data on Mars equator using Nasa InSight lander API.
+
+Running
+^^^^^^^
+
+`deno run --allow-net server.ts`
+
+Go to http://localhost:8000
+
+InSight Mars
+^^^^^^^^^^^^
+
+DEMO_KEY will work for a few requests, but then you'll hit rate limit.
+
+Get API key at https://api.nasa.gov/ and replace key in server.ts
+
+InSight Mars Weather Service API docs https://api.nasa.gov/assets/insight/InSight%20Weather%20API%20Documentation.pdf
