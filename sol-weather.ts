@@ -1,6 +1,6 @@
 export interface SolWeather {
-  sol: number
-  average: number
-  low: number
-  high: number
+  sol: number;
+  average: number;
+  low: number;
+  high: number;
 }
